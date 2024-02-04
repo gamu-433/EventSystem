@@ -4,8 +4,10 @@ scoreboard objectives add event-worldbonus dummy
 scoreboard objectives add event-kihon dummy
 # Eventの合計特殊ボーナス
 scoreboard objectives add event-tokusyu dummy
-# souryokuは自分基本力やボーナスを全部足した合計の力
+# 自分基本力やボーナスを全部足した合計の力
 scoreboard objectives add event-souryoku dummy
+# Eventポイント
+scoreboard objectives add event-eventpoint dummy
 # ショップポイント
 scoreboard objectives add event-shoppoint dummy
 # Xp本体
@@ -20,3 +22,29 @@ scoreboard objectives add event-playerxpbai dummy
 scoreboard objectives add event-drink dummy
 # 採掘ポイント何倍するか
 scoreboard objectives add event-saikutu dummy
+# 採掘ポイントのボーナス基本力
+socreboard objectives add event-saikutukihon dummy
+# 採掘情報作成
+scoreboard objectives add ev.wooden_pickaxe minecraft.used:wooden_pickaxe
+scoreboard objectives add ev.stone_pickaxe minecraft.used:stone_pickaxe
+scoreboard objectives add ev.iron_pickaxe minecraft.used:iron_pickaxe
+scoreboard objectives add ev.golden_pickaxe minecraft.used:golden_pickaxe
+scoreboard objectives add ev.diamond_pickaxe minecraft.used:diamond_pickaxe
+scoreboard objectives add ev.netherite_pickaxe minecraft.used:netherite_pickaxe
+scoreboard objectives add ev.wooden_shovel minecraft.used:wooden_shovel
+scoreboard objectives add ev.stone_shovel minecraft.used:stone_shovel
+scoreboard objectives add ev.iron_shovel minecraft.used:iron_shovel
+scoreboard objectives add ev.golden_shovel minecraft.used:golden_shovel
+scoreboard objectives add ev.diamond_shovel minecraft.used:diamond_shovel
+scoreboard objectives add ev.netherite_shovel minecraft.used:netherite_shovel
+scoreboard objectives add ev.wooden_axe minecraft.used:wooden_axe
+scoreboard objectives add ev.stone_axe minecraft.used:stone_axe
+scoreboard objectives add ev.iron_axe minecraft.used:iron_axe
+scoreboard objectives add ev.golden_axe minecraft.used:golden_axe
+scoreboard objectives add ev.diamond_axe minecraft.used:diamond_axe
+scoreboard objectives add ev.netherite_axe minecraft.used:netherite_axe
+scoreboard objectives add ev.break_count dummy
+# 採掘ポイントを計算するときの一時的なランダム値
+socreboard objectives add event-saikuturandom dummy
+# 採掘ポイントを計算するときの一時的な避難値
+socreboard objectives add event-saikuturando2 dummy
