@@ -22,6 +22,8 @@ scoreboard objectives add event-playerxpbai dummy
 scoreboard objectives add event-drink dummy
 # 採掘ポイント何倍するか
 scoreboard objectives add event-saikutu dummy
+# MObkillポイント何倍するか
+scoreboard objectives add event-moblevel dummy
 # 採掘ポイントのボーナス基本力
 socreboard objectives add event-saikutukihon dummy
 # 採掘情報作成
@@ -45,6 +47,14 @@ scoreboard objectives add ev.diamond_axe minecraft.used:diamond_axe
 scoreboard objectives add ev.netherite_axe minecraft.used:netherite_axe
 scoreboard objectives add ev.break_count dummy
 # 採掘ポイントを計算するときの一時的なランダム値
-socreboard objectives add event-saikuturandom dummy
+scoreboard objectives add event-saikuturandom dummy
 # 採掘ポイントを計算するときの一時的な避難値
-socreboard objectives add event-saikuturando2 dummy
+scoreboard objectives add event-saikuturando2 dummy
+# MOBの合計キル数
+scoreboard objectives add event-mobkill totalKillCount
+# playerをkillした合計
+scoreboard objectives add event-playerkill playerKillCount
+# mobkillポイントを計算するときの一時的なランダム値
+scoreboard objectives add event-mobkillrandom dummy
+# mobkillポイントを計算するときの一時的な避難値
+scoreboard objectives add event-mobkillrandom2 dummy
