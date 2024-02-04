@@ -1,0 +1,33 @@
+name: datapackUP
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build_and_release:
+    name: Build and Release
+
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Find a directory that serves as a resource pack
+        run: find . -mindepth 2 -maxdepth 2 -type f -iname pack.mcmeta | parallel echo {//} > pack.txt
+
+      - name: Creating resource packs from found directories
+        run: parallel -a pack.txt --wd {} zip -r "$PWD"/{/}.zip .
+
+      - name: View the resource pack you created.
+        run: find . -maxdepth 1 -type f -name "*.zip"
+
+      - uses: softprops/action-gh-release@v1
+        with:
+          tag_name: v${{ github.run_number }}
+          files: '*.zip'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
