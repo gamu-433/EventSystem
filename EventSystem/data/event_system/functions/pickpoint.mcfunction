@@ -12,6 +12,8 @@ kill @e[tag=RNG,distance=..0.01,limit=1]
 scoreboard players operation @s event-saikuturandom %= #100 event-saikuturandom
 scoreboard players operation @s event-saikuturandom /= #10 event-saikuturandom
 scoreboard players operation @s event-saikuturandom /= #2 event-saikuturandom
+scoreboard players operation @s event-saikuturandom *= @s event-saikutu
+scoreboard players operation @s event-saikuturandom /= #2 event-saikuturandom
 scoreboard players operation @s event-saikuturando2 = @s event-souryoku
 scoreboard players operation @s event-saikuturando2 *= @s event-saikuturandom
 scoreboard players operation @s event-eventpoint += @s event-saikuturando2
