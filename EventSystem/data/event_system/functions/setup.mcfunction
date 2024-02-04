@@ -1,7 +1,9 @@
 # Eventの合計ワールドエリアボーなす
 scoreboard objectives add event-worldbonus dummy
-# Eventの合計基本力
+# Eventの合計基本力(フェイク)
 scoreboard objectives add event-kihon dummy
+# Eventの合計基本力
+scoreboard objectives add event-kihon2 dummy
 # Eventの合計特殊ボーナス
 scoreboard objectives add event-tokusyu dummy
 # 自分基本力やボーナスを全部足した合計の力
