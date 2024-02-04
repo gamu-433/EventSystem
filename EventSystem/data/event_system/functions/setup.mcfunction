@@ -24,8 +24,12 @@ scoreboard objectives add event-drink dummy
 scoreboard objectives add event-saikutu dummy
 # MObkillポイント何倍するか
 scoreboard objectives add event-moblevel dummy
+# MObポイント集計用ショップ計算
+scoreboard objectives add event-mobshopkei dummy
 # 採掘ポイントのボーナス基本力
 scoreboard objectives add event-saikutukihon dummy
+# 採掘用ショップポイント計算
+scoreboard objectives add event-saikutushop dummy
 # 採掘情報作成
 scoreboard objectives add ev.wooden_pickaxe minecraft.used:wooden_pickaxe
 scoreboard objectives add ev.stone_pickaxe minecraft.used:stone_pickaxe

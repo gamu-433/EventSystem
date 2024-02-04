@@ -19,6 +19,9 @@ scoreboard players operation @s event-mobkillrandom *= @s event-drink
 scoreboard players operation @s event-mobkillrandom2 = @s event-souryoku
 scoreboard players operation @s event-mobkillrandom2 *= @s event-mobkillrandom
 scoreboard players operation @s event-eventpoint += @s event-mobkillrandom2
-scoreboard players operation @s event-mobkillrandom2 /= #60 event-mobkillrandom
-scoreboard players operation @s event-shoppoint += @s event-mobkillrandom2
+scoreboard players operation @s event-mobshopkei = @s event-mobkillrandom2
+scoreboard players operation @s event-mobshopkei /= #60 event-mobkillrandom
+scoreboard players operation @s event-shoppoint += @s event-mobshopkei
+execute as @s at @s if entity @s[tag=event-tuuti] run tellraw @s [{"text":"イベントポイント","color":"light_purple"},{"text":"：","color":"gray"},{"text":"+","color":"aqua"},{"score":{"name":"@s","objective":"event-mobkillrandom2"},"color":"aqua"},{"text":"\nショップポイント","color":"yellow"},{"text":"：","color":"gray"},{"text":"+","color":"aqua"},{"score":{"name":"@s","objective":"event-mobshopkei"},"color":"aqua"}]
+execute as @s at @s if entity @s[tag=event-tuuti] run playsound entity.player.levelup master @s ~ ~ ~ 1 2
 tag @s remove event-mobkill
