@@ -4,7 +4,7 @@
 tag @s add event-mobkill
 scoreboard players remove @s event-mobkill 10
 scoreboard players set #100 event-mobkillrandom 100
-scoreboard players set #60 event-mobkillrandom 45
+scoreboard players set #40 event-mobkillrandom 45
 scoreboard players set #10 event-mobkillrandom 7
 scoreboard players set #2 event-mobkillrandom 2
 summon area_effect_cloud ~ ~ ~ {Tags:["RNG"]}
@@ -20,7 +20,7 @@ scoreboard players operation @s event-mobkillrandom2 = @s event-souryoku
 scoreboard players operation @s event-mobkillrandom2 *= @s event-mobkillrandom
 scoreboard players operation @s event-eventpoint += @s event-mobkillrandom2
 scoreboard players operation @s event-mobshopkei = @s event-mobkillrandom2
-scoreboard players operation @s event-mobshopkei /= #60 event-mobkillrandom
+scoreboard players operation @s event-mobshopkei /= #40 event-mobkillrandom
 scoreboard players operation @s event-shoppoint += @s event-mobshopkei
 execute as @s at @s if entity @s[tag=event-tuuti] run tellraw @s [{"text":"イベントポイント","color":"light_purple"},{"text":"：","color":"gray"},{"text":"+","color":"aqua"},{"score":{"name":"@s","objective":"event-mobkillrandom2"},"color":"aqua"},{"text":"\nショップポイント","color":"yellow"},{"text":"：","color":"gray"},{"text":"+","color":"aqua"},{"score":{"name":"@s","objective":"event-mobshopkei"},"color":"aqua"}]
 execute as @s at @s if entity @s[tag=event-tuuti] run playsound entity.player.levelup master @s ~ ~ ~ 1 2
