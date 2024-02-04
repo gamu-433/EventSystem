@@ -25,7 +25,7 @@ scoreboard objectives add event-saikutu dummy
 # MObkillポイント何倍するか
 scoreboard objectives add event-moblevel dummy
 # 採掘ポイントのボーナス基本力
-socreboard objectives add event-saikutukihon dummy
+scoreboard objectives add event-saikutukihon dummy
 # 採掘情報作成
 scoreboard objectives add ev.wooden_pickaxe minecraft.used:wooden_pickaxe
 scoreboard objectives add ev.stone_pickaxe minecraft.used:stone_pickaxe
