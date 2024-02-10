@@ -64,3 +64,16 @@ scoreboard objectives add event-playerkill playerKillCount
 scoreboard objectives add event-mobkillrandom dummy
 # mobkillポイントを計算するときの一時的な避難値
 scoreboard objectives add event-mobkillrandom2 dummy
+# ランキングの調整
+scoreboard players set Nodata event-eventpoint 1
+scoreboard players set Nodata2 event-eventpoint 1
+scoreboard players set Nodata3 event-eventpoint 1
+scoreboard players set Nodata4 event-eventpoint 1
+scoreboard players set Nodata5 event-eventpoint 1
+scoreboard players set Nodata6 event-eventpoint 1
+scoreboard players set Nodata7 event-eventpoint 1
+scoreboard players set Nodata8 event-eventpoint 1
+scoreboard players set Nodata9 event-eventpoint 1
+scoreboard players set Nodata10 event-eventpoint 1
+scoreboard players set Nodata11 event-eventpoint 1
+scoreboard players set Nodata12 event-eventpoint 1
