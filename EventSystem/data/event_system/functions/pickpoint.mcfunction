@@ -1,7 +1,7 @@
 # 採掘のポイント処理
-# 100以上かどうかはmainで判断してある場合はこっちを実行
+# 150以上かどうかはmainで判断してある場合はこっちを実行
 tag @s add event-sais
-scoreboard players remove @s ev.break_count 100
+scoreboard players remove @s ev.break_count 150
 scoreboard players set #100 event-saikuturandom 100
 scoreboard players set #30 event-saikuturandom 30
 scoreboard players set #10 event-saikuturandom 10
