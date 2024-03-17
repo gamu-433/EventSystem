@@ -77,3 +77,14 @@ scoreboard players set Nodata9 event-eventpoint 1
 scoreboard players set Nodata10 event-eventpoint 1
 scoreboard players set Nodata11 event-eventpoint 1
 scoreboard players set Nodata12 event-eventpoint 1
+# =ガチャ用1回用=
+
+# ガチャしてるかの検知用
+scoreboard objectives add event-gatya1ok dummy
+
+# メイン抽選
+scoreboard objectives add event-gatya1 dummy
+scoreboard objectives add event-gatya2 dummy
+
+# 抽選地代入して保存
+scoreboard objectives add event-gatya1-1 dummy
