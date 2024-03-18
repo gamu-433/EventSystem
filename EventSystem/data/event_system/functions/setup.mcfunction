@@ -79,12 +79,26 @@ scoreboard players set Nodata11 event-eventpoint 1
 scoreboard players set Nodata12 event-eventpoint 1
 # =ガチャ用1回用=
 
-# ガチャしてるかの検知用
+# どのガチャを何連でしてるかの検知用
 scoreboard objectives add event-gatya1ok dummy
 
 # メイン抽選
 scoreboard objectives add event-gatya1 dummy
 scoreboard objectives add event-gatya2 dummy
 
+# 演出検知用スコア
+scoreboard objectives add event-gatyaen dummy
+
+# リワードの値
+scoreboard objectives add event-gatya-reword dummy
 # 抽選地代入して保存
 scoreboard objectives add event-gatya1-1 dummy
+scoreboard objectives add event-gatya1-2 dummy
+scoreboard objectives add event-gatya1-3 dummy
+scoreboard objectives add event-gatya1-4 dummy
+scoreboard objectives add event-gatya1-5 dummy
+scoreboard objectives add event-gatya1-6 dummy
+scoreboard objectives add event-gatya1-7 dummy
+scoreboard objectives add event-gatya1-8 dummy
+scoreboard objectives add event-gatya1-9 dummy
+scoreboard objectives add event-gatya1-10 dummy
