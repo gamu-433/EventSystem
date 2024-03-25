@@ -17,9 +17,9 @@ give @s[scores={event-gatya-reword=186}] paper{display:{Name:'{"text":"ブロッ
 give @s[scores={event-gatya-reword=185}] carrot_on_a_stick{display:{Name:'{"text":"攻撃力上昇のコイン","color":"red"}',Lore:['{"text":"投票イベント産です！","color":"aqua","italic":false}']},HideFlags:1,CustomModelData:4,Enchantments:[{id:"minecraft:protection",lvl:1s}]} 1
 give @s[scores={event-gatya-reword=184}] carrot_on_a_stick{display:{Name:'{"text":"採掘速度上昇のコイン","color":"yellow"}',Lore:['{"text":"投票イベント産です！","color":"aqua","italic":false}']},HideFlags:1,CustomModelData:5,Enchantments:[{id:"minecraft:protection",lvl:1s}]} 1
 give @s[scores={event-gatya-reword=183}] orange_dye{display:{Name:'{"text":"投票イベント(1回)","color":"yellow","bold":true,"italic":false}',Lore:['{"text":"即座に投票イベントを発動させます！","color":"aqua","italic":false}','{"text":"※シフトで使用できます","color":"aqua","italic":false}']},CustomModelData:101,money_vote_party:1,item_sneak_onetime:1} 1
-give @s[scores={event-gatya-reword=182}]
-give @s[scores={event-gatya-reword=181}]
-give @s[scores={event-gatya-reword=180}]
-give @s[scores={event-gatya-reword=179}]
-give @s[scores={event-gatya-reword=178}]
-give @s[scores={event-gatya-reword=177}]
+give @s[scores={event-gatya-reword=182}] hopper 1
+give @s[scores={event-gatya-reword=181}] turtle_egg 2
+give @s[scores={event-gatya-reword=180}] allay_spawn_egg 1
+give @s[scores={event-gatya-reword=179}] netherite_ingot 1
+give @s[scores={event-gatya-reword=178}] recovery_compass 1
+give @s[scores={event-gatya-reword=177}] sniffer_egg 1
