@@ -23,7 +23,7 @@ give @s[scores={event-gatya-reword=180}] allay_spawn_egg 1
 give @s[scores={event-gatya-reword=179}] netherite_ingot 1
 give @s[scores={event-gatya-reword=178}] recovery_compass 1
 give @s[scores={event-gatya-reword=177}] sniffer_egg 1
-#176 - 44
+#176 - 56
 give @s[scores={event-gatya-reword=175..176}]
 give @s[scores={event-gatya-reword=172..174}]
 give @s[scores={event-gatya-reword=169..171}]
@@ -60,15 +60,15 @@ give @s[scores={event-gatya-reword=79..81}]
 give @s[scores={event-gatya-reword=76..78}]
 give @s[scores={event-gatya-reword=73..75}]
 give @s[scores={event-gatya-reword=70..72}]
-give @s[scores={event-gatya-reword=67..69}]
-give @s[scores={event-gatya-reword=64..66}]
-give @s[scores={event-gatya-reword=61..63}]
-give @s[scores={event-gatya-reword=58..60}]
-give @s[scores={event-gatya-reword=55..57}]
-give @s[scores={event-gatya-reword=52..54}]
-give @s[scores={event-gatya-reword=49..51}]
-give @s[scores={event-gatya-reword=46..48}]
-give @s[scores={event-gatya-reword=43..45}]
+give @s[scores={event-gatya-reword=67..69}] wooden_sword{display:{Name:'{"text":"ノックバックソード","color":"red","bold":true}'},RepairCost:9999,Enchantments:[{id:"minecraft:knockback",lvl:6s}]} 1
+give @s[scores={event-gatya-reword=64..66}] turtle_helmet 1
+give @s[scores={event-gatya-reword=61..63}] spectral_arrow 10
+give @s[scores={event-gatya-reword=58..60}] shulker_shell 1
+give @s[scores={event-gatya-reword=55..57}] raw_gold_block 1
+give @s[scores={event-gatya-reword=52..54}] iron_block 3
+give @s[scores={event-gatya-reword=49..51}] gunpowder 8
+give @s[scores={event-gatya-reword=46..48}] emerald 8
+give @s[scores={event-gatya-reword=43..45}] diamond 10
 give @s[scores={event-gatya-reword=40..42}] golden_apple 1
 give @s[scores={event-gatya-reword=37..39}] heart_of_the_sea{display:{Name:'{"text":"投票コイン","color":"gold","bold":true,"italic":true}',Lore:['{"text":"投票や、貢献してくれた人にもらえる特別なコイン！","color":"aqua"}','{"text":"様々な用途に使用できるよ!","color":"green"}']},HideFlags:1,CustomModelData:1,Enchantments:[{id:"minecraft:protection",lvl:1s}]} 1
 give @s[scores={event-gatya-reword=34..36}] cooked_beef{display:{Name:'{"text":"特大ホールケーキ！","color":"gold","bold":true}',Lore:['{"text":"とっても美味しい!!!","color":"aqua"}','[{"text":"送り主：","color":"white"},{"text":"%cp-player-name%","color":"green"}]']},CustomModelData:6} 2
