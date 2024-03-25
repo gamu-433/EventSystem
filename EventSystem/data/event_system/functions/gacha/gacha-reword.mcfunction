@@ -23,3 +23,60 @@ give @s[scores={event-gatya-reword=180}] allay_spawn_egg 1
 give @s[scores={event-gatya-reword=179}] netherite_ingot 1
 give @s[scores={event-gatya-reword=178}] recovery_compass 1
 give @s[scores={event-gatya-reword=177}] sniffer_egg 1
+#176 - 44
+give @s[scores={event-gatya-reword=175..176}]
+give @s[scores={event-gatya-reword=172..174}]
+give @s[scores={event-gatya-reword=169..171}]
+give @s[scores={event-gatya-reword=166..168}]
+give @s[scores={event-gatya-reword=163..165}]
+give @s[scores={event-gatya-reword=160..162}]
+give @s[scores={event-gatya-reword=157..159}]
+give @s[scores={event-gatya-reword=154..156}]
+give @s[scores={event-gatya-reword=151..153}]
+give @s[scores={event-gatya-reword=148..150}]
+give @s[scores={event-gatya-reword=145..147}]
+give @s[scores={event-gatya-reword=142..144}]
+give @s[scores={event-gatya-reword=139..141}]
+give @s[scores={event-gatya-reword=136..138}]
+give @s[scores={event-gatya-reword=133..135}]
+give @s[scores={event-gatya-reword=130..132}]
+give @s[scores={event-gatya-reword=127..129}]
+give @s[scores={event-gatya-reword=124..126}]
+give @s[scores={event-gatya-reword=121..123}]
+give @s[scores={event-gatya-reword=118..120}]
+give @s[scores={event-gatya-reword=115..117}]
+give @s[scores={event-gatya-reword=112..114}]
+give @s[scores={event-gatya-reword=109..111}]
+give @s[scores={event-gatya-reword=106..108}]
+give @s[scores={event-gatya-reword=103..105}]
+give @s[scores={event-gatya-reword=100..102}]
+give @s[scores={event-gatya-reword=97..99}]
+give @s[scores={event-gatya-reword=94..96}]
+give @s[scores={event-gatya-reword=91..93}]
+give @s[scores={event-gatya-reword=88..90}]
+give @s[scores={event-gatya-reword=85..87}]
+give @s[scores={event-gatya-reword=82..84}]
+give @s[scores={event-gatya-reword=79..81}]
+give @s[scores={event-gatya-reword=76..78}]
+give @s[scores={event-gatya-reword=73..75}]
+give @s[scores={event-gatya-reword=70..72}]
+give @s[scores={event-gatya-reword=67..69}]
+give @s[scores={event-gatya-reword=64..66}]
+give @s[scores={event-gatya-reword=61..63}]
+give @s[scores={event-gatya-reword=58..60}]
+give @s[scores={event-gatya-reword=55..57}]
+give @s[scores={event-gatya-reword=52..54}]
+give @s[scores={event-gatya-reword=49..51}]
+give @s[scores={event-gatya-reword=46..48}]
+give @s[scores={event-gatya-reword=43..45}]
+give @s[scores={event-gatya-reword=40..42}] golden_apple 1
+give @s[scores={event-gatya-reword=37..39}] heart_of_the_sea{display:{Name:'{"text":"投票コイン","color":"gold","bold":true,"italic":true}',Lore:['{"text":"投票や、貢献してくれた人にもらえる特別なコイン！","color":"aqua"}','{"text":"様々な用途に使用できるよ!","color":"green"}']},HideFlags:1,CustomModelData:1,Enchantments:[{id:"minecraft:protection",lvl:1s}]} 1
+give @s[scores={event-gatya-reword=34..36}] cooked_beef{display:{Name:'{"text":"特大ホールケーキ！","color":"gold","bold":true}',Lore:['{"text":"とっても美味しい!!!","color":"aqua"}','[{"text":"送り主：","color":"white"},{"text":"%cp-player-name%","color":"green"}]']},CustomModelData:6} 2
+give @s[scores={event-gatya-reword=31..33}] cooked_beef{display:{Name:'{"text":"ペロペロキャンディ！","color":"gold","bold":true}',Lore:['{"text":"甘いね〜!","color":"aqua"}','[{"text":"送り主：","color":"white"},{"text":"%cp-player-name%","color":"green"}]']},CustomModelData:7} 2
+# 高確率
+give @s[scores={event-gatya-reword=26..30}] cooked_beef{display:{Name:'{"text":"ショートケーキ！","color":"gold","bold":true}',Lore:['{"text":"絶品の一品!","color":"aqua"}','[{"text":"送り主：","color":"white"},{"text":"%cp-player-name%","color":"green"}]']},CustomModelData:8} 2
+give @s[scores={event-gatya-reword=21..25}] cooked_beef{display:{Name:'{"text":"三色団子！","color":"gold","bold":true}',Lore:['{"text":"職人の味!","color":"aqua"}','[{"text":"送り主：","color":"white"},{"text":"%cp-player-name%","color":"green"}]']},CustomModelData:9} 2
+give @s[scores={event-gatya-reword=15..20}] cooked_beef{display:{Name:'{"text":"ハート型チョコ","color":"gold","bold":true}',Lore:['{"text":"美味しさもハートだね!！","color":"aqua"}','[{"text":"送り主：","color":"white"},{"text":"%cp-player-name%","color":"green"}]']},HideFlags:1,CustomModelData:5,choco:1,Enchantments:[{id:"minecraft:unbreaking",lvl:1s}]} 2
+give @s[scores={event-gatya-reword=11..15}] cooked_beef{display:{Name:'{"text":"板チョコ","color":"gold","bold":true}',Lore:['{"text":"パリッと美味しい!?","color":"aqua"}','[{"text":"送り主：","color":"white"},{"text":"%cp-player-name%","color":"green"}]']},HideFlags:1,CustomModelData:4,choco:1,Enchantments:[{id:"minecraft:unbreaking",lvl:1s}]} 2
+give @s[scores={event-gatya-reword=6..10}] cooked_beef{display:{Name:'{"text":"チョコクッキー","color":"gold","bold":true}',Lore:['{"text":"とっても美味しそう！","color":"aqua"}','[{"text":"送り主：","color":"white"},{"text":"%cp-player-name%","color":"green"}]']},HideFlags:1,CustomModelData:3,choco:1,Enchantments:[{id:"minecraft:unbreaking",lvl:1s}]} 2
+give @s[scores={event-gatya-reword=1..5}] amethyst_cluster 1
