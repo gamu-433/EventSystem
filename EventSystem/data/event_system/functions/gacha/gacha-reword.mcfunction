@@ -53,13 +53,13 @@ give @s[scores={event-gatya-reword=100..102}]
 give @s[scores={event-gatya-reword=97..99}]
 give @s[scores={event-gatya-reword=94..96}]
 give @s[scores={event-gatya-reword=91..93}]
-give @s[scores={event-gatya-reword=88..90}]
-give @s[scores={event-gatya-reword=85..87}]
-give @s[scores={event-gatya-reword=82..84}]
-give @s[scores={event-gatya-reword=79..81}]
-give @s[scores={event-gatya-reword=76..78}]
-give @s[scores={event-gatya-reword=73..75}]
-give @s[scores={event-gatya-reword=70..72}]
+give @s[scores={event-gatya-reword=88..90}] cooked_beef{display:{Name:'{"text":"串団子(あんこ)","color":"dark_purple","bold":true}'},CustomModelData:12} 1
+give @s[scores={event-gatya-reword=85..87}] cooked_beef{display:{Name:'{"text":"草団子","color":"dark_green","bold":true}'},CustomModelData:11} 1
+give @s[scores={event-gatya-reword=82..84}] cooked_beef{display:{Name:'{"text":"みたらし団子","color":"gold","bold":true}'},CustomModelData:10} 1
+give @s[scores={event-gatya-reword=79..81}] parrot_spawn_egg 1
+give @s[scores={event-gatya-reword=76..78}] skeleton_skull 1
+give @s[scores={event-gatya-reword=73..75}] cat_spawn_egg 1
+give @s[scores={event-gatya-reword=70..72}] bread 15
 give @s[scores={event-gatya-reword=67..69}] wooden_sword{display:{Name:'{"text":"ノックバックソード","color":"red","bold":true}'},RepairCost:9999,Enchantments:[{id:"minecraft:knockback",lvl:6s}]} 1
 give @s[scores={event-gatya-reword=64..66}] turtle_helmet 1
 give @s[scores={event-gatya-reword=61..63}] spectral_arrow 10
