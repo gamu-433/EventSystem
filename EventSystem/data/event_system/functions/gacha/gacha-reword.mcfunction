@@ -24,8 +24,11 @@ give @s[scores={event-gatya-reword=179}] netherite_ingot 1
 give @s[scores={event-gatya-reword=178}] recovery_compass 1
 give @s[scores={event-gatya-reword=177}] sniffer_egg 1
 #176 - 56
+#ここから
+#内容、1万円、グレネード10個、
 give @s[scores={event-gatya-reword=175..176}]
 give @s[scores={event-gatya-reword=172..174}]
+#ここまではcustomアイテムなので別で突っ込む
 give @s[scores={event-gatya-reword=169..171}]
 give @s[scores={event-gatya-reword=166..168}]
 give @s[scores={event-gatya-reword=163..165}]
@@ -50,9 +53,9 @@ give @s[scores={event-gatya-reword=109..111}]
 give @s[scores={event-gatya-reword=106..108}]
 give @s[scores={event-gatya-reword=103..105}]
 give @s[scores={event-gatya-reword=100..102}]
-give @s[scores={event-gatya-reword=97..99}]
-give @s[scores={event-gatya-reword=94..96}]
-give @s[scores={event-gatya-reword=91..93}]
+give @s[scores={event-gatya-reword=97..99}] 
+give @s[scores={event-gatya-reword=94..96}] armor_stand 2
+give @s[scores={event-gatya-reword=91..93}] slime_ball 5
 give @s[scores={event-gatya-reword=88..90}] cooked_beef{display:{Name:'{"text":"串団子(あんこ)","color":"dark_purple","bold":true}'},CustomModelData:12} 1
 give @s[scores={event-gatya-reword=85..87}] cooked_beef{display:{Name:'{"text":"草団子","color":"dark_green","bold":true}'},CustomModelData:11} 1
 give @s[scores={event-gatya-reword=82..84}] cooked_beef{display:{Name:'{"text":"みたらし団子","color":"gold","bold":true}'},CustomModelData:10} 1
