@@ -53,7 +53,7 @@ give @s[scores={event-gatya-reword=109..111}]
 give @s[scores={event-gatya-reword=106..108}]
 give @s[scores={event-gatya-reword=103..105}]
 give @s[scores={event-gatya-reword=100..102}]
-give @s[scores={event-gatya-reword=97..99}] 
+give @s[scores={event-gatya-reword=97..99}] rotten_flesh 20
 give @s[scores={event-gatya-reword=94..96}] armor_stand 2
 give @s[scores={event-gatya-reword=91..93}] slime_ball 5
 give @s[scores={event-gatya-reword=88..90}] cooked_beef{display:{Name:'{"text":"串団子(あんこ)","color":"dark_purple","bold":true}'},CustomModelData:12} 1
