@@ -13,14 +13,14 @@ give @s[scores={event-gatya-reword=190}] carrot_on_a_stick{display:{Name:'{"text
 give @s[scores={event-gatya-reword=189}] carrot_on_a_stick{display:{Name:'{"text":"耐性のコイン","color":"red"}',Lore:['{"text":"クリックで発動します","color":"aqua","italic":false}']},HideFlags:1,CustomModelData:3,Enchantments:[{id:"minecraft:protection",lvl:1s}]} 1
 give @s[scores={event-gatya-reword=188}] paper{display:{Name:'{"text":"福引チケット(ノーマル)","color":"yellow","italic":false}',Lore:['{"text":"10枚集めると、福引ができます。","color":"aqua","italic":false}']},item_sneak_onetime:1,hukubiki_normal:1} 2
 give @s[scores={event-gatya-reword=187}] paper{display:{Name:'{"text":"jobsブースト(2倍)","color":"yellow","italic":false}',Lore:['{"text":"重ね掛けはできないので気を付けて。","color":"aqua","italic":false}']},item_sneak_onetime:1,boost_jobs_2:1} 1
-give @s[scores={event-gatya-reword=186}] paper{display:{Name:'{"text":"ブロックチケット","color":"yellow","bold":true}',Lore:['{"text":"ワールドrailwayの銀行で、様々なブロックと交換できます","color":"aqua"}']},HideFlags:1,Enchantments:[{id:"minecraft:protection",lvl:1s}]} 3
+give @s[scores={event-gatya-reword=186}] paper{display:{Name:'{"text":"ブロックチケット","color":"yellow","bold":true}',Lore:['{"text":"ワールドrailwayの銀行で、様々なブロックと交換できます","color":"aqua"}']},HideFlags:1,Enchantments:[{id:"minecraft:protection",lvl:1s}]} 5
 give @s[scores={event-gatya-reword=185}] carrot_on_a_stick{display:{Name:'{"text":"攻撃力上昇のコイン","color":"red"}',Lore:['{"text":"投票イベント産です！","color":"aqua","italic":false}']},HideFlags:1,CustomModelData:4,Enchantments:[{id:"minecraft:protection",lvl:1s}]} 1
 give @s[scores={event-gatya-reword=184}] carrot_on_a_stick{display:{Name:'{"text":"採掘速度上昇のコイン","color":"yellow"}',Lore:['{"text":"投票イベント産です！","color":"aqua","italic":false}']},HideFlags:1,CustomModelData:5,Enchantments:[{id:"minecraft:protection",lvl:1s}]} 1
 give @s[scores={event-gatya-reword=183}] orange_dye{display:{Name:'{"text":"投票イベント(1回)","color":"yellow","bold":true,"italic":false}',Lore:['{"text":"即座に投票イベントを発動させます！","color":"aqua","italic":false}','{"text":"※シフトで使用できます","color":"aqua","italic":false}']},CustomModelData:101,money_vote_party:1,item_sneak_onetime:1} 1
 give @s[scores={event-gatya-reword=182}] hopper 1
 give @s[scores={event-gatya-reword=181}] turtle_egg 2
 give @s[scores={event-gatya-reword=180}] allay_spawn_egg 1
-give @s[scores={event-gatya-reword=179}] netherite_ingot 1
+give @s[scores={event-gatya-reword=179}] 
 give @s[scores={event-gatya-reword=178}] recovery_compass 1
 give @s[scores={event-gatya-reword=177}] sniffer_egg 1
 #176 - 56
@@ -46,8 +46,8 @@ give @s[scores={event-gatya-reword=130..132}]
 give @s[scores={event-gatya-reword=127..129}]
 give @s[scores={event-gatya-reword=124..126}]
 give @s[scores={event-gatya-reword=121..123}]
-give @s[scores={event-gatya-reword=118..120}]
-give @s[scores={event-gatya-reword=115..117}]
+give @s[scores={event-gatya-reword=118..120}] iron_ingot 20
+give @s[scores={event-gatya-reword=115..117}] netherite_ingot 1
 give @s[scores={event-gatya-reword=112..114}] melon_slice 32
 give @s[scores={event-gatya-reword=109..111}] bread 20
 give @s[scores={event-gatya-reword=106..108}] bone_meal 20
