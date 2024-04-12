@@ -48,11 +48,11 @@ give @s[scores={event-gatya-reword=124..126}]
 give @s[scores={event-gatya-reword=121..123}]
 give @s[scores={event-gatya-reword=118..120}]
 give @s[scores={event-gatya-reword=115..117}]
-give @s[scores={event-gatya-reword=112..114}]
-give @s[scores={event-gatya-reword=109..111}]
-give @s[scores={event-gatya-reword=106..108}]
-give @s[scores={event-gatya-reword=103..105}]
-give @s[scores={event-gatya-reword=100..102}]
+give @s[scores={event-gatya-reword=112..114}] melon_slice 32
+give @s[scores={event-gatya-reword=109..111}] bread 20
+give @s[scores={event-gatya-reword=106..108}] bone_meal 20
+give @s[scores={event-gatya-reword=103..105}] paper{display:{Name:'{"text":"ブロックチケット","color":"yellow","bold":true}',Lore:['{"text":"ワールドrailwayの銀行で、様々なブロックと交換できます","color":"aqua"}']},HideFlags:1,Enchantments:[{id:"minecraft:protection",lvl:1s}]} 2
+give @s[scores={event-gatya-reword=100..102}] stone 64
 give @s[scores={event-gatya-reword=97..99}] rotten_flesh 20
 give @s[scores={event-gatya-reword=94..96}] armor_stand 2
 give @s[scores={event-gatya-reword=91..93}] slime_ball 5
