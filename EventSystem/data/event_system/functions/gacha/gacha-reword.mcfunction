@@ -20,7 +20,7 @@ give @s[scores={event-gatya-reword=183}] orange_dye{display:{Name:'{"text":"投�
 give @s[scores={event-gatya-reword=182}] hopper 1
 give @s[scores={event-gatya-reword=181}] turtle_egg 2
 give @s[scores={event-gatya-reword=180}] allay_spawn_egg 1
-give @s[scores={event-gatya-reword=179}] 
+give @s[scores={event-gatya-reword=179}] wither_skeleton_skull 1
 give @s[scores={event-gatya-reword=178}] recovery_compass 1
 give @s[scores={event-gatya-reword=177}] sniffer_egg 1
 #176 - 56
@@ -39,21 +39,21 @@ give @s[scores={event-gatya-reword=151..153}]
 give @s[scores={event-gatya-reword=148..150}]
 give @s[scores={event-gatya-reword=145..147}]
 give @s[scores={event-gatya-reword=142..144}]
-give @s[scores={event-gatya-reword=139..141}]
-give @s[scores={event-gatya-reword=136..138}]
-give @s[scores={event-gatya-reword=133..135}]
-give @s[scores={event-gatya-reword=130..132}]
-give @s[scores={event-gatya-reword=127..129}]
-give @s[scores={event-gatya-reword=124..126}]
-give @s[scores={event-gatya-reword=121..123}]
-give @s[scores={event-gatya-reword=118..120}] iron_ingot 20
+give @s[scores={event-gatya-reword=139..141}] cobweb 7
+give @s[scores={event-gatya-reword=136..138}] blaze_powder 5
+give @s[scores={event-gatya-reword=133..135}] tropical_fish_bucket 1
+give @s[scores={event-gatya-reword=130..132}] quartz 25
+give @s[scores={event-gatya-reword=127..129}] gold_ingot 10
+give @s[scores={event-gatya-reword=124..126}] compass 1
+give @s[scores={event-gatya-reword=121..123}] hay_block 5
+give @s[scores={event-gatya-reword=118..120}] iron_ingot 10
 give @s[scores={event-gatya-reword=115..117}] netherite_ingot 1
-give @s[scores={event-gatya-reword=112..114}] melon_slice 32
+give @s[scores={event-gatya-reword=112..114}] melon_slice 25
 give @s[scores={event-gatya-reword=109..111}] bread 20
 give @s[scores={event-gatya-reword=106..108}] bone_meal 20
 give @s[scores={event-gatya-reword=103..105}] paper{display:{Name:'{"text":"ブロックチケット","color":"yellow","bold":true}',Lore:['{"text":"ワールドrailwayの銀行で、様々なブロックと交換できます","color":"aqua"}']},HideFlags:1,Enchantments:[{id:"minecraft:protection",lvl:1s}]} 2
 give @s[scores={event-gatya-reword=100..102}] stone 64
-give @s[scores={event-gatya-reword=97..99}] rotten_flesh 20
+give @s[scores={event-gatya-reword=97..99}] rotten_flesh 10
 give @s[scores={event-gatya-reword=94..96}] armor_stand 2
 give @s[scores={event-gatya-reword=91..93}] slime_ball 5
 give @s[scores={event-gatya-reword=88..90}] cooked_beef{display:{Name:'{"text":"串団子(あんこ)","color":"dark_purple","bold":true}'},CustomModelData:12} 1
@@ -68,10 +68,10 @@ give @s[scores={event-gatya-reword=64..66}] turtle_helmet 1
 give @s[scores={event-gatya-reword=61..63}] spectral_arrow 10
 give @s[scores={event-gatya-reword=58..60}] shulker_shell 1
 give @s[scores={event-gatya-reword=55..57}] raw_gold_block 1
-give @s[scores={event-gatya-reword=52..54}] iron_block 3
-give @s[scores={event-gatya-reword=49..51}] gunpowder 8
-give @s[scores={event-gatya-reword=46..48}] emerald 8
-give @s[scores={event-gatya-reword=43..45}] diamond 10
+give @s[scores={event-gatya-reword=52..54}] iron_block 2
+give @s[scores={event-gatya-reword=49..51}] gunpowder 5
+give @s[scores={event-gatya-reword=46..48}] emerald 5
+give @s[scores={event-gatya-reword=43..45}] diamond 5
 give @s[scores={event-gatya-reword=40..42}] golden_apple 1
 give @s[scores={event-gatya-reword=37..39}] heart_of_the_sea{display:{Name:'{"text":"投票コイン","color":"gold","bold":true,"italic":true}',Lore:['{"text":"投票や、貢献してくれた人にもらえる特別なコイン！","color":"aqua"}','{"text":"様々な用途に使用できるよ!","color":"green"}']},HideFlags:1,CustomModelData:1,Enchantments:[{id:"minecraft:protection",lvl:1s}]} 1
 give @s[scores={event-gatya-reword=34..36}] cooked_beef{display:{Name:'{"text":"特大ホールケーキ！","color":"gold","bold":true}',Lore:['{"text":"とっても美味しい!!!","color":"aqua"}','[{"text":"送り主：","color":"white"},{"text":"%cp-player-name%","color":"green"}]']},CustomModelData:6} 2
