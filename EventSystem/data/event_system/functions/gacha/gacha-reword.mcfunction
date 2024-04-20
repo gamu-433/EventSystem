@@ -5,7 +5,7 @@ give @s[scores={event-gatya-reword=197}] netherite_sword{display:{Name:'{"text":
 give @s[scores={event-gatya-reword=196}] netherite_sword{display:{Name:'[{"text":"宝剣！","color":"red","bold":true},{"text":"ギャラクシア","color":"gold"}]',Lore:['{"text":"特殊なブーストのついた強力な宝剣!","color":"aqua"}']},RepairCost:8,CustomModelData:12,Enchantments:[{id:"minecraft:bane_of_arthropods",lvl:1s},{id:"minecraft:sharpness",lvl:3s},{id:"minecraft:smite",lvl:3s}],AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:0.07,Operation:1,UUID:[I;-528857612,-944224413,-2008570059,1912387048],Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Amount:0.05,Operation:1,UUID:[I;-682115329,818301634,-1933697225,-2109443448],Slot:"mainhand"},{AttributeName:"generic.knockback_resistance",Name:"generic.knockback_resistance",Amount:0.03,Operation:1,UUID:[I;-434357229,-1324136992,-1584371701,-1509361130],Slot:"mainhand"}]} 1
 give @s[scores={event-gatya-reword=195}] nether_star 2
 # 18
-give @s[scores={event-gatya-reword=194}] paper{display:{Name:'{"text":"特殊鉱石交換チケット","color":"aqua","bold":true}',Lore:['{"text":"取引所で特殊鉱石と交換できます。","color":"gold"}']},HideFlags:1,CustomModelData:3,Enchantments:[{id:"minecraft:unbreaking",lvl:1s}]} 1
+give @s[scores={event-gatya-reword=194}] paper{display:{Name:'{"text":"特殊鉱石交換チケット","color":"aqua","bold":true}',Lore:['{"text":"取引所で特殊鉱石と交換できます。","color":"gold"}']},HideFlags:1,CustomModelData:3,Enchantments:[{id:"minecraft:unbreaking",lvl:1s}]} 2
 give @s[scores={event-gatya-reword=193}] heart_of_the_sea{display:{Name:'{"text":"投票コイン","color":"gold","bold":true,"italic":true}',Lore:['{"text":"投票や、貢献してくれた人にもらえる特別なコイン！","color":"aqua"}','{"text":"様々な用途に使用できるよ!","color":"green"}']},HideFlags:1,CustomModelData:1,Enchantments:[{id:"minecraft:protection",lvl:1s}]} 3
 give @s[scores={event-gatya-reword=192}] shulker_box 1
 give @s[scores={event-gatya-reword=191}] enchanted_golden_apple 2
@@ -30,15 +30,15 @@ give @s[scores={event-gatya-reword=175..176}]
 give @s[scores={event-gatya-reword=172..174}]
 #ここまではcustomアイテムなので別で突っ込む
 give @s[scores={event-gatya-reword=169..171}]
-give @s[scores={event-gatya-reword=166..168}]
-give @s[scores={event-gatya-reword=163..165}]
-give @s[scores={event-gatya-reword=160..162}]
-give @s[scores={event-gatya-reword=157..159}]
-give @s[scores={event-gatya-reword=154..156}]
-give @s[scores={event-gatya-reword=151..153}]
-give @s[scores={event-gatya-reword=148..150}]
-give @s[scores={event-gatya-reword=145..147}]
-give @s[scores={event-gatya-reword=142..144}]
+give @s[scores={event-gatya-reword=166..168}] crossbow 1
+give @s[scores={event-gatya-reword=163..165}] axolotl_bucket 1
+give @s[scores={event-gatya-reword=160..162}] amethyst_shard 7
+give @s[scores={event-gatya-reword=157..159}] ancient_debris 1
+give @s[scores={event-gatya-reword=154..156}] golden_carrot 15
+give @s[scores={event-gatya-reword=151..153}] wheat{display:{Name:'{"text":"魔法農作物:フードウィンド","color":"gold","italic":false}',Lore:['{"text":"全員の満腹度・隠し満腹度を最大値まで回復します","color":"aqua","italic":false}']},HideFlags:1,magic_farm_saturation:1,Enchantments:[{id:"minecraft:protection",lvl:1s}]} 1
+give @s[scores={event-gatya-reword=148..150}] golden_carrot{display:{Name:'{"text":"魔法農作物:シールドアリーナ","color":"gold","italic":false}',Lore:['{"text":"同じワールドにいる全員に金ハートを15秒の間8個付与します。","color":"aqua","italic":false}']},HideFlags:1,magic_farm_absorption:1,Enchantments:[{id:"minecraft:protection",lvl:1s}]} 1
+give @s[scores={event-gatya-reword=145..147}] minecraft:baked_potato{display:{Name:'{"text":"魔法農作物:ストレングスアップ","color":"gold","italic":false}',Lore:['{"text":"同じワールドにいる全員に30秒の間攻撃力を50％上げます。","color":"aqua","italic":false}']},HideFlags:1,magic_farm_potato_strength:1,Enchantments:[{id:"minecraft:protection",lvl:1s}]} 1
+give @s[scores={event-gatya-reword=142..144}] minecraft:glow_berries{display:{Name:'{"text":"魔法農作物:マナヒール","color":"gold","italic":false}',Lore:['{"text":"全員のプレイヤーのmpを200増やします。","color":"aqua","italic":false}']},HideFlags:1,magic_farm_mana:1,Enchantments:[{id:"minecraft:protection",lvl:1s}]} 1
 give @s[scores={event-gatya-reword=139..141}] cobweb 7
 give @s[scores={event-gatya-reword=136..138}] blaze_powder 5
 give @s[scores={event-gatya-reword=133..135}] tropical_fish_bucket 1
