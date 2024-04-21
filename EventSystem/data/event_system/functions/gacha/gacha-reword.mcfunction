@@ -26,10 +26,9 @@ give @s[scores={event-gatya-reword=177}] sniffer_egg 1
 #176 - 56
 #ここから
 #内容、1万円、グレネード10個、
-give @s[scores={event-gatya-reword=175..176}]
-give @s[scores={event-gatya-reword=172..174}]
-#ここまではcustomアイテムなので別で突っ込む
-give @s[scores={event-gatya-reword=169..171}]
+give @s[scores={event-gatya-reword=175..176}] firework_rocket 20
+give @s[scores={event-gatya-reword=172..174}] minecraft:red_candle{PublicBukkitValues: {"weaponmechanics:weapon-title": "Grenade", "mechanicscore:deny-crafting": 1}, display: {Name: '{"italic":false,"color":"gold","text":"グレネード!"}', Lore: ['{"italic":false,"color":"aqua","text":"広範囲にダメージを与える強力な武器"}', '{"italic":false,"text":""}', '{"italic":false,"color":"green","text":"ステータス"}', '{"italic":false,"color":"gold","extra":[{"color":"yellow","extra":[{"color":"aqua","text":"15"}],"text":"ダメージ量："}],"text":"➣"}']}, Unbreakable: 1b, CustomModelData: 5, HideFlags: -1} 5
+give @s[scores={event-gatya-reword=169..171}] paper{HideFlags:1,display:{Name:'{"text":"1万円分の小切手","color":"green","bold":true}',Lore:['{"text":"1万円の価値が保証されている小切手","color":"aqua"}']},Enchantments:[{id:"minecraft:unbreaking",lvl:10s}]} 1
 give @s[scores={event-gatya-reword=166..168}] crossbow 1
 give @s[scores={event-gatya-reword=163..165}] axolotl_bucket 1
 give @s[scores={event-gatya-reword=160..162}] amethyst_shard 7
